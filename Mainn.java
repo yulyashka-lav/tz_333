@@ -46,7 +46,7 @@ public class Mainn {
 
     public static void main(String[] args) {
         try {
-            int[] nums = readFromFile("C:\\Users\\User\\IdeaProjects\\untitled\\src\\input.txt");
+            int[] nums = readFromFile("input.txt");
             int minim = _min(nums);
             int maxim = _max(nums);
             int summa = _sum(nums);
