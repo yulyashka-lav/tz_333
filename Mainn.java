@@ -36,10 +36,10 @@ public class Mainn {
                 file_name);
         Scanner sc = new Scanner(file);
         String line = sc.nextLine();
-        String[] tokens = line.split(" ");
-        int[] numbers = new int[tokens.length];
-        for (int i = 0; i < tokens.length; i++) {
-            numbers[i] = Integer.parseInt(tokens[i]);
+        String[] s = line.split(" ");
+        int[] numbers = new int[s.length];
+        for (int i = 0; i < s.length; i++) {
+            numbers[i] = Integer.parseInt(s[i]);
         }
         return numbers;
     }
